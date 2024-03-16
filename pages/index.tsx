@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Head from 'next/head';
 import type {NextPage} from 'next';
-import Header from "../components/Header";
+import PostBox from "../components/PostBox";
 
 export default function Home() {
   return (
@@ -9,6 +9,12 @@ export default function Home() {
       <Head>
         <title>Reddit Clone</title>
       </Head>
+
+      {/* POST BOX */}
+      <PostBox />
+      <div>
+        {/* Feed */}
+      </div>
     </div>
   );
 }
